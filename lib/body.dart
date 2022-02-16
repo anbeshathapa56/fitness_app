@@ -20,12 +20,13 @@ class _BodyState extends State<Body> {
                 children: <Widget> [
                   Column(
                     children: <Widget>[
-                      Text("Welcome to fitness world", style: textStyle(
+                      Text("Welcome to fitness world", style: TextStyle(
                         fontSize: 16, color: Color(0xff869CEE)),
                       ),
                       Row(
                         children: <Widget>
                         [Text("Find a"), Text("Workout")],
+
                       )
                     ],
                   ),
